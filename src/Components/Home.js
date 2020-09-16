@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div>
+    <div className="cube__face cube__face--home">
       <h1>Home</h1>
     </div>
   );

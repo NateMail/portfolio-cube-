@@ -1,0 +1,24 @@
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+  &__icon {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 0.5rem;
+  }
+
+  &__text {
+    align-items: center;
+    color: black;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  &__text:hover {
+    color: maroon;
+  }
+}

@@ -1,9 +1,54 @@
 import React from "react";
+import {
+  AiFillFilePdf,
+  AiFillMail,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
+import Resume from "../Documents/Resume.pdf";
 
 export default function Footer() {
   return (
-    <div>
-      <h1>Footer</h1>
+    <div className="footer">
+      <div className="footer__section">
+        <a
+          href={Resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer__text"
+        >
+          <AiFillFilePdf className="footer__icon" />
+          Resume
+        </a>
+      </div>
+      <div className="footer__section">
+        <a href="mailto:nathan.mailhiot@gmail.com" className="footer__text">
+          <AiFillMail className="footer__icon" />
+          nathan.mailhiot@gmail.com
+        </a>
+      </div>
+      <div className="footer__section">
+        <a
+          href="https://www.linkedin.com/in/nathanmailhiot/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer__text"
+        >
+          <AiFillLinkedin className="footer__icon" />
+          www.linkedin.com/in/nathanmailhiot
+        </a>
+      </div>
+      <div className="footer__section">
+        <a
+          href="https://github.com/NateMail"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer__text"
+        >
+          <AiFillGithub className="footer__icon" />
+          www.github.com/NateMail
+        </a>
+      </div>
     </div>
   );
 }

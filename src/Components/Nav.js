@@ -24,13 +24,13 @@ export default function Nav(props) {
           </button>
         </li>
         <li className="nav__item">
-          <button onClick={onChange} value="projects">
-            Projects
+          <button onClick={onChange} value="personalProjects">
+            Personal Projects
           </button>
         </li>
         <li className="nav__item">
-          <button onClick={onChange} value="resume">
-            Resume
+          <button onClick={onChange} value="professionalProjects">
+            Professional Projects
           </button>
         </li>
         <li className="nav__item">

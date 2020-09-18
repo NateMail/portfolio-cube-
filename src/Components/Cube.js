@@ -1,10 +1,10 @@
 import React from "react";
 import Home from "./Home";
-import Projects from "./Projects";
+import PersonalProjects from "./PersonalProjects";
 import About from "./About";
 import Contact from "./Contact";
 import Skills from "./Skills";
-import Resume from "./Resume";
+import ProfessionalProjects from "./ProfessionalProjects";
 
 export default function Cube(props) {
   const cubeClass = `cube show-${props.side}`;
@@ -12,10 +12,10 @@ export default function Cube(props) {
     <div className={cubeClass}>
       <Home />
       <About />
-      <Projects />
+      <PersonalProjects />
       <Contact />
       <Skills />
-      <Resume />
+      <ProfessionalProjects />
     </div>
   );
 }

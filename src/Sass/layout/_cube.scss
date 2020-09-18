@@ -34,7 +34,7 @@
       transform: rotateY(0deg) translateZ(1000px);
     }
 
-    &--projects {
+    &--personalProjects {
       background-color: blue;
       color: white;
       transform: rotateY(90deg) translateZ(1000px);
@@ -58,7 +58,7 @@
       transform: rotateX(90deg) translateZ(1000px);
     }
 
-    &--resume {
+    &--professionalProjects {
       background-color: darkolivegreen;
       color: white;
       transform: rotateX(-90deg) translateZ(1000px);
@@ -69,7 +69,10 @@
 .show-home {
   transform: translateZ(-1000px) rotateY(0deg);
 }
-.show-projects {
+.show-skills {
+  transform: translateZ(-1000px) rotateX(-90deg);
+}
+.show-personalProjects {
   transform: translateZ(-1000px) rotateY(-90deg);
 }
 .show-about {
@@ -78,9 +81,9 @@
 .show-contact {
   transform: translateZ(-1000px) rotateY(90deg);
 }
-.show-skills {
+.show-prop {
   transform: translateZ(-1000px) rotateX(-90deg);
 }
-.show-resume {
+.show-professionalProjects {
   transform: translateZ(-1000px) rotateX(90deg);
 }

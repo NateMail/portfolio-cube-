@@ -1,6 +1,9 @@
 .container {
   align-items: center;
-  background: linear-gradient(#37acff, #0479ff);
+  background: url("../../Photos/stars.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   height: 90vh;
@@ -20,7 +23,7 @@
   position: relative;
   transform-style: preserve-3d;
   transform: translateZ(-1000px);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 1s ease-in-out;
   transform-origin: center;
 
   &__face {

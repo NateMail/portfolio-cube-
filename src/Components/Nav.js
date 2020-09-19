@@ -10,23 +10,23 @@ export default function Nav(props) {
       <div className="nav__logo"></div>
       <ul className="nav__list">
         <li className="nav__item">
-          <button className="nav__btn" onClick={onChange} value="home">
+          <button className="nav__btn btn" onClick={onChange} value="home">
             Home
           </button>
         </li>
         <li className="nav__item">
-          <button className="nav__btn" onClick={onChange} value="about">
+          <button className="nav__btn btn" onClick={onChange} value="about">
             About
           </button>
         </li>
         <li className="nav__item">
-          <button className="nav__btn" onClick={onChange} value="skills">
+          <button className="nav__btn btn" onClick={onChange} value="skills">
             Skills
           </button>
         </li>
         <li className="nav__item">
           <button
-            className="nav__btn"
+            className="nav__btn btn"
             onClick={onChange}
             value="personalProjects"
           >
@@ -35,7 +35,7 @@ export default function Nav(props) {
         </li>
         <li className="nav__item">
           <button
-            className="nav__btn"
+            className="nav__btn btn"
             onClick={onChange}
             value="professionalProjects"
           >
@@ -43,7 +43,7 @@ export default function Nav(props) {
           </button>
         </li>
         <li className="nav__item">
-          <button className="nav__btn" onClick={onChange} value="contact">
+          <button className="nav__btn btn" onClick={onChange} value="contact">
             Contact
           </button>
         </li>

@@ -1,0 +1,28 @@
+.contact {
+  background-color: #66cdaa;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  height: 100%;
+  width: 100%;
+
+  &__heading {
+    font-size: 6rem;
+    grid-row: 2;
+    grid-column: 2 / 6;
+    text-align: center;
+  }
+
+  &__error {
+    background-color: rgba(darkred, 0.6);
+    font-size: 6rem;
+    grid-row: 3;
+    grid-column: 2 / 6;
+    text-align: center;
+  }
+
+  &__form {
+    grid-row: 4 / 8;
+    grid-column: 2 / 6;
+  }
+}

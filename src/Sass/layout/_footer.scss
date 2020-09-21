@@ -1,5 +1,6 @@
 .footer {
   align-items: center;
+  background-color: $color-dark;
   display: flex;
   justify-content: space-around;
 
@@ -11,14 +12,17 @@
 
   &__text {
     align-items: center;
-    color: black;
+    color: $color-off-white;
     display: flex;
     font-size: 1.6rem;
     justify-content: center;
     text-decoration: none;
+    transition: all 0.5s;
   }
 
   &__text:hover {
-    color: maroon;
+    background-color: $color-off-white;
+    border-radius: 3px;
+    color: $color-light-blue;
   }
 }

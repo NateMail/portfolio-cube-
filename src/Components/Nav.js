@@ -7,13 +7,8 @@ export default function Nav(props) {
 
   return (
     <div className="nav">
-      <div className="nav__logo"></div>
+      <div className="nav__logo" onClick={onChange} value="home"></div>
       <ul className="nav__list">
-        <li className="nav__item">
-          <button className="nav__btn btn" onClick={onChange} value="home">
-            Home
-          </button>
-        </li>
         <li className="nav__item">
           <button className="nav__btn btn" onClick={onChange} value="about">
             About

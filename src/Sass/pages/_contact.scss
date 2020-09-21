@@ -1,5 +1,5 @@
 .contact {
-  background-color: #66cdaa;
+  background-color: $color-dark-blue;
   display: grid;
   grid-template-rows: repeat(8, 1fr);
   grid-template-columns: repeat(6, 1fr);

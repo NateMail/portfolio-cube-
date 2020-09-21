@@ -1,5 +1,5 @@
 .nav {
-  background-color: $color-dark-blue;
+  background-color: $color-light-blue;
   display: flex;
   height: fit-content;
   justify-content: space-between;
@@ -11,6 +11,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: $color-off-white;
+    border-radius: 3px;
+    border-bottom-right-radius: 20%;
     cursor: pointer;
     height: 10rem;
     width: 10rem;

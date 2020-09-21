@@ -36,31 +36,31 @@
     }
 
     &--personalProjects {
-      background-color: blue;
+      background-color: $color-dark-blue;
       color: white;
       transform: rotateY(90deg) translateZ(1000px);
     }
 
     &--about {
-      background-color: green;
+      background-color: $color-forrest;
       color: white;
       transform: rotateY(180deg) translateZ(1000px);
     }
 
     &--contact {
-      background-color: darkorange;
+      background-color: $color-dark-blue;
       color: white;
       transform: rotateY(-90deg) translateZ(1000px);
     }
 
     &--skills {
-      background-color: darkcyan;
+      background-color: $color-medium-blue;
       color: white;
       transform: rotateX(90deg) translateZ(1000px);
     }
 
     &--professionalProjects {
-      background-color: darkolivegreen;
+      background-color: $color-medium-blue;
       color: white;
       transform: rotateX(-90deg) translateZ(1000px);
     }

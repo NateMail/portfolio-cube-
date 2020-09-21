@@ -10,13 +10,19 @@
     display: flex;
     grid-column: 2 / 4;
     grid-row: 2;
+    font-family: "Arvo", serif;
+    font-size: 5rem;
     justify-content: center;
+    text-shadow: 1px 1px 2px $color-dark;
   }
 
   &__text {
     grid-column: 2 / 6;
     grid-row: 3 / 6;
-    margin-top: 1rem;
+    font-family: "Arvo", serif;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-top: 1.5rem;
   }
 
   &__img {
@@ -25,9 +31,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 80%;
+    box-shadow: 5px 5px 3px $color-dark;
     grid-column: 4 / 6;
     grid-row: 2;
-    height: 25rem;
-    width: 25rem;
+    height: 35rem;
+    width: 35rem;
   }
 }

@@ -14,13 +14,33 @@
     grid-column: 2 / 6;
     font-family: "Arvo", serif;
     font-size: 1.2rem;
-    line-height: 1;
+    line-height: 1.2;
     padding-top: 2px;
   }
 
   &__link {
+    color: $color-dark;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
     grid-row: 6;
-    grid-column: 2 / 6;
+    grid-column: 2 / 3;
+    margin-top: 2px;
+  }
+
+  &__repo {
+    color: $color-dark;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    grid-row: 6;
+    grid-column: 4 / 5;
+    margin-top: 2px;
+  }
+
+  &__link:hover,
+  &__repo:hover {
+    color: $color-light-blue;
   }
 
   &__img {

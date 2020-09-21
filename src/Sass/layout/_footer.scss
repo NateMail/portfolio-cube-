@@ -1,8 +1,10 @@
 .footer {
   align-items: center;
   background-color: $color-dark;
+  border-top: 2px solid $color-off-white;
   display: flex;
   justify-content: space-around;
+  width: 100%;
 
   &__icon {
     height: 5rem;

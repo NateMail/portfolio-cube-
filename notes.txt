@@ -1,2 +1,3 @@
 1. Need to hook up email.js properly.
 2. Mobile will need a full revision.
+3. Work on Hero section 

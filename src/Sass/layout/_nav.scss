@@ -12,11 +12,17 @@
     background-size: cover;
     background-color: $color-off-white;
     border-radius: 80%;
+    box-shadow: 5px 3px 3px $color-dark;
     margin: auto 0;
     margin-left: 5px;
     cursor: pointer;
     height: 8rem;
     width: 8rem;
+    transition: all 0.5s;
+  }
+
+  &__logo:hover {
+    transform: scale(1.2);
   }
 
   &__list {
@@ -29,6 +35,7 @@
   }
 
   &__btn {
+    box-shadow: 5px 3px 3px $color-dark;
     cursor: pointer;
     font-family: "Roboto Slab", serif;
   }

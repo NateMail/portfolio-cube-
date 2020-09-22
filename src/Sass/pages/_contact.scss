@@ -12,6 +12,7 @@
     grid-row: 2;
     grid-column: 2 / 6;
     text-align: center;
+    text-shadow: 5px 5px 5px $color-dark;
   }
 
   &__error {
@@ -24,6 +25,7 @@
     grid-column: 2 / 6;
     justify-content: center;
     text-align: center;
+    text-shadow: 5px 5px 5px $color-dark;
   }
 
   &__form {

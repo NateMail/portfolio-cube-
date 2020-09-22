@@ -27,6 +27,7 @@
   transform-origin: center;
 
   &__face {
+    color: $color-off-white;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -37,31 +38,26 @@
 
     &--personalProjects {
       background-color: $color-dark-blue;
-      color: white;
       transform: rotateY(90deg) translateZ(1000px);
     }
 
     &--about {
       background-color: $color-forrest;
-      color: white;
       transform: rotateY(180deg) translateZ(1000px);
     }
 
     &--contact {
       background-color: $color-dark-blue;
-      color: white;
       transform: rotateY(-90deg) translateZ(1000px);
     }
 
     &--skills {
       background-color: $color-medium-blue;
-      color: white;
       transform: rotateX(90deg) translateZ(1000px);
     }
 
     &--professionalProjects {
       background-color: $color-medium-blue;
-      color: white;
       transform: rotateX(-90deg) translateZ(1000px);
     }
   }

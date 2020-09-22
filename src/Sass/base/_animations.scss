@@ -21,3 +21,25 @@
     transform: rotateX(0deg);
   }
 }
+
+@keyframes loading {
+  0% {
+    color: $color-dark-blue;
+    letter-spacing: 20px;
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    letter-spacing: -20px;
+    opacity: 1;
+  }
+  100% {
+    color: $color-forrest;
+    letter-spacing: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+  }
+}

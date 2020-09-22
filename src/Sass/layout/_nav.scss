@@ -1,7 +1,7 @@
 .nav {
   background-color: $color-light-blue;
   display: flex;
-  height: fit-content;
+  height: 10vh;
   justify-content: space-between;
   width: 100%;
 
@@ -11,11 +11,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: $color-off-white;
-    border-radius: 3px;
-    border-bottom-right-radius: 20%;
+    border-radius: 80%;
+    margin: auto 0;
+    margin-left: 5px;
     cursor: pointer;
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
   }
 
   &__list {

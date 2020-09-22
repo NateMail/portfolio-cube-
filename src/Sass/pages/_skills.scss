@@ -1,0 +1,114 @@
+.skills {
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  height: 100%;
+  width: 100%;
+
+  &__list1 {
+    list-style: none;
+    grid-row: 2 / 8;
+    grid-column: 2;
+  }
+  &__list2 {
+    list-style: none;
+    grid-row: 2 / 8;
+    grid-column: 4;
+  }
+  &__list3 {
+    list-style: none;
+    grid-row: 2 / 8;
+    grid-column: 6;
+  }
+
+  &__item {
+    font-size: 3.25rem;
+    margin: 40px 0px;
+  }
+
+  &__icon {
+    border-radius: 80%;
+    margin-right: 4px;
+    font-size: 5rem;
+  }
+}
+
+.html {
+  background-color: $color-eggshell;
+  color: #f16528;
+}
+
+.css {
+  background-color: $color-eggshell;
+  color: #2965f1;
+}
+
+.git {
+  background-color: $color-eggshell;
+  color: #ea4f31;
+}
+
+.boot {
+  background-color: $color-eggshell;
+  color: #563d7c;
+}
+
+.sass {
+  background-color: $color-eggshell;
+  color: #c86495;
+}
+
+.npm {
+  background-color: $color-eggshell;
+  color: #cb3838;
+}
+
+.js {
+  background-color: $color-eggshell;
+  color: #f7df1d;
+}
+
+.query {
+  background-color: $color-eggshell;
+  color: #0765a6;
+}
+
+.mongo {
+  background-color: $color-eggshell;
+  color: #419642;
+}
+
+.react {
+  background-color: $color-eggshell;
+  color: #5ed4f4;
+}
+
+.node {
+  background-color: $color-eggshell;
+  color: #75a371;
+}
+
+.ruby {
+  background-color: $color-eggshell;
+  color: #ba1901;
+}
+
+.py {
+  background-color: $color-eggshell;
+  color: #f4dd5a;
+}
+
+.post {
+  background-color: $color-eggshell;
+  color: #31648d;
+}
+
+.vs {
+  background-color: $color-eggshell;
+  color: #219fea;
+}
+
+.her {
+  background-color: $color-eggshell;
+  color: #5d1bb3;
+}

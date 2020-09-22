@@ -3,52 +3,51 @@ import React from "react";
 export default function ProfessionalProjects() {
   return (
     <div className="cube__face cube__face--professionalProjects">
-      <h1>Professional projects</h1>
-      {/* <div className="projectsGrid">
+      <div className="projectsGrid">
         <div className="card card1">
           <div className="card__img"></div>
           <p className="card__text">COMING SOON!</p>
-          <a className="card__link" href="#">
+          {/* <a className="card__link" href="#">
             link
           </a>
           <a className="card__repo" href="#">
             repo
-          </a>
+          </a> */}
         </div>
 
         <div className="card card2">
           <div className="card__img"></div>
           <p className="card__text">COMING SOON!</p>
-          <a className="card__link" href="#">
+          {/* <a className="card__link" href="#">
             link
           </a>
           <a className="card__repo" href="#">
             repo
-          </a>
+          </a> */}
         </div>
 
         <div className="card card3">
           <div className="card__img"></div>
           <p className="card__text">COMING SOON!</p>
-          <a className="card__link" href="#">
+          {/* <a className="card__link" href="#">
             link
           </a>
           <a className="card__repo" href="#">
             repo
-          </a>
+          </a> */}
         </div>
 
         <div className="card card4">
           <div className="card__img"></div>
           <p className="card__text">COMING SOON!</p>
-          <a className="card__link" href="#">
+          {/* <a className="card__link" href="#">
             link
           </a>
           <a className="card__repo" href="#">
             repo
-          </a>
+          </a> */}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

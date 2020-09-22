@@ -1,5 +1,5 @@
 .card {
-  background: $color-off-white;
+  background: $color-eggshell;
   border-radius: 3px;
   color: $color-dark;
   display: grid;
@@ -19,20 +19,22 @@
   }
 
   &__link {
-    color: $color-dark;
+    color: $color-dark-blue;
     font-size: 1.2rem;
     text-decoration: none;
     text-transform: uppercase;
+    text-shadow: 1px 1px 2px $color-light-blue;
     grid-row: 6;
     grid-column: 2 / 3;
     margin-top: 2px;
   }
 
   &__repo {
-    color: $color-dark;
+    color: $color-dark-blue;
     font-size: 1.2rem;
     text-decoration: none;
     text-transform: uppercase;
+    text-shadow: 1px 1px 2px $color-light-blue;
     grid-row: 6;
     grid-column: 4 / 5;
     margin-top: 2px;

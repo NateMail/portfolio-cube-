@@ -6,7 +6,7 @@ export default function Contact() {
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userMessage, setUserMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("Error Message Test");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const reg = /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
@@ -21,7 +21,7 @@ export default function Contact() {
         user_message: userMessage,
       });
     } else {
-      setErrorMessage("All feilds required!");
+      setErrorMessage("All fields required!");
     }
   }
 
@@ -87,8 +87,12 @@ export default function Contact() {
   return (
     <div className="cube__face cube__face--contact">
       <div className="contact">
-        <h1 className="contact__heading">Contact Me!</h1>
-        <div className="contact__error">{errorMessaging(errorMessage)}</div>
+        {errorMessage === "" ? (
+          <h1 className="contact__heading">Contact Me!</h1>
+        ) : (
+          <div className="contact__error">{errorMessaging(errorMessage)}</div>
+        )}
+
         <div className="contact__form">
           <form className="form" onSubmit={submitForm}>
             <input type="hidden" name="contact_number" />

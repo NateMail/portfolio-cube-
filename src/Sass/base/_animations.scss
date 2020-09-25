@@ -24,7 +24,7 @@
 
 @keyframes loading {
   0% {
-    color: $color-dark-blue;
+    color: $color-medium-blue;
     letter-spacing: 20px;
     opacity: 0;
     transform: translateY(-50px);
@@ -37,7 +37,7 @@
     opacity: 1;
   }
   100% {
-    color: $color-forrest;
+    color: purple;
     letter-spacing: 20px;
     opacity: 0;
     transform: translateY(50px);

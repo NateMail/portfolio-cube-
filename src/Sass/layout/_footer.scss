@@ -2,7 +2,7 @@
   align-items: center;
   background: $color-dark;
   display: flex;
-  height: 6vh;
+  height: 10vh;
   justify-content: space-around;
   width: 100%;
 
@@ -13,17 +13,12 @@
   }
 
   &__text {
-    align-items: center;
     color: $color-off-white;
-    display: flex;
-    font-size: 1.6rem;
-    justify-content: center;
     text-decoration: none;
     transition: all 0.5s;
   }
 
   &__text:hover {
-    background-color: $color-off-white;
     border-radius: 3px;
     color: $color-light-blue;
   }

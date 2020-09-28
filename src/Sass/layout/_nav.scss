@@ -19,6 +19,12 @@
     height: 7rem;
     width: 7rem;
     transition: all 0.5s;
+
+    @include respond(phone) {
+      height: 5rem;
+      margin-left: 0;
+      width: 5rem;
+    }
   }
 
   &__logo:hover {
@@ -38,5 +44,9 @@
     box-shadow: 5px 3px 3px $color-dark;
     cursor: pointer;
     font-family: "Roboto Slab", serif;
+
+    @include respond(phone) {
+      font-size: 1.6rem;
+    }
   }
 }

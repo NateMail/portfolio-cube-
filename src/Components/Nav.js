@@ -25,7 +25,7 @@ export default function Nav(props) {
             onClick={onChange}
             value="personalProjects"
           >
-            Personal Projects
+            Personal
           </button>
         </li>
         <li className="nav__item">
@@ -34,7 +34,7 @@ export default function Nav(props) {
             onClick={onChange}
             value="professionalProjects"
           >
-            Professional Projects
+            Professional
           </button>
         </li>
         <li className="nav__item">

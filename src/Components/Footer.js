@@ -18,13 +18,11 @@ export default function Footer() {
           className="footer__text"
         >
           <AiFillFilePdf className="footer__icon" />
-          Resume
         </a>
       </div>
       <div className="footer__section">
         <a href="mailto:nathan.mailhiot@gmail.com" className="footer__text">
           <AiFillMail className="footer__icon" />
-          nathan.mailhiot@gmail.com
         </a>
       </div>
       <div className="footer__section">
@@ -35,7 +33,6 @@ export default function Footer() {
           className="footer__text"
         >
           <AiFillLinkedin className="footer__icon" />
-          www.linkedin.com/in/nathanmailhiot
         </a>
       </div>
       <div className="footer__section">
@@ -46,7 +43,6 @@ export default function Footer() {
           className="footer__text"
         >
           <AiFillGithub className="footer__icon" />
-          www.github.com/NateMail
         </a>
       </div>
     </div>

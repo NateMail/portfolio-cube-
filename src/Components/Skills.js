@@ -99,7 +99,7 @@ export default function Skills() {
           <li className="skills__item">
             <DiRor className="skills__icon ruby" />
             <br />
-            Ruby on Rails
+            Rails
           </li>
           <li className="skills__item">
             <DiPython className="skills__icon py" />

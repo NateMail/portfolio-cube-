@@ -7,7 +7,7 @@ export default function Home() {
         <div className="home__grid">
           <h1 className="home__heading">Hello!</h1>
           <p className="home__text">
-            I'm Nate Mailhiot a freelance website developer!
+            My name is Nate Mailhiot and I'm a freelance website developer!
           </p>
         </div>
       </div>

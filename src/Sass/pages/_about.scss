@@ -1,6 +1,6 @@
 .about {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(6, 1fr);
   height: 100%;
   width: 100%;
@@ -15,6 +15,21 @@
     font-size: 5rem;
     justify-content: center;
     text-shadow: 1px 1px 2px $color-dark;
+
+    @include respond(tab-land) {
+      grid-column: 2 / 5;
+    }
+
+    @include respond(tab-port) {
+      grid-column: 1 / 4;
+    }
+
+    @include respond(phone) {
+      font-size: 3.5rem;
+      grid-column: 2 / 7;
+      grid-row: 2;
+      text-align: center;
+    }
   }
 
   &__heading:hover {
@@ -28,6 +43,24 @@
     font-size: 1.6rem;
     line-height: 3rem;
     margin-top: 1.5rem;
+
+    @include respond(tab-land) {
+      font-size: 2rem;
+      line-height: 4rem;
+      grid-column: 2 / 7;
+    }
+
+    @include respond(tab-port) {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+
+    @include respond(phone) {
+      font-size: 1.6rem;
+      grid-column: 2 / 7;
+      grid-row: 4;
+      line-height: 2rem;
+    }
   }
 
   &__img {
@@ -41,6 +74,21 @@
     grid-row: 2;
     height: 35rem;
     width: 35rem;
+
+    @include respond(tab-land) {
+      grid-column: 5 / 7;
+    }
+
+    @include respond(tab-port) {
+      grid-column: 5 / 7;
+    }
+
+    @include respond(phone) {
+      grid-column: 4;
+      grid-row: 3;
+      height: 20rem;
+      width: 20rem;
+    }
   }
   &__img:hover {
     animation: imgRotate 5s;

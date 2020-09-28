@@ -5,23 +5,40 @@
   height: 100%;
   width: 100%;
 
+  @include respond(phone) {
+    grid-template-columns: repeat((4, 1fr));
+    grid-template-rows: repeat(7, 1fr);
+  }
+
   &__list1 {
     list-style: none;
     grid-row: 2 / 8;
     grid-column: 3;
     text-align: center;
+
+    @include respond(phone) {
+      grid-column: 1;
+    }
   }
   &__list2 {
     list-style: none;
     grid-row: 2 / 8;
     grid-column: 5;
     text-align: center;
+
+    @include respond(phone) {
+      grid-column: 2;
+    }
   }
   &__list3 {
     list-style: none;
     grid-row: 2 / 8;
     grid-column: 7;
     text-align: center;
+
+    @include respond(phone) {
+      grid-column: 3;
+    }
   }
 
   &__list4 {
@@ -29,6 +46,10 @@
     grid-row: 2 / 8;
     grid-column: 9;
     text-align: center;
+
+    @include respond(phone) {
+      grid-column: 4;
+    }
   }
 
   &__item {

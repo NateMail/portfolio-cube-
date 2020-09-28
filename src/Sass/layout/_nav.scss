@@ -1,5 +1,5 @@
 .nav {
-  background-color: rgba($color-dark, 0.2);
+  background: $color-light-blue;
   display: flex;
   height: 10vh;
   justify-content: space-between;
@@ -16,8 +16,8 @@
     margin: auto 0;
     margin-left: 5px;
     cursor: pointer;
-    height: 8rem;
-    width: 8rem;
+    height: 7rem;
+    width: 7rem;
     transition: all 0.5s;
   }
 

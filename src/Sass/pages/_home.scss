@@ -18,6 +18,7 @@
   &__heading {
     align-items: center;
     background-color: rgba($color-dark, 0.5);
+    border-radius: 3px;
     display: flex;
     font-size: 6rem;
     grid-column: 3;
@@ -29,6 +30,7 @@
   &__text {
     align-items: center;
     background-color: rgba($color-dark, 0.5);
+    border-radius: 3px;
     display: flex;
     font-size: 3rem;
     grid-column: 3 / 5;

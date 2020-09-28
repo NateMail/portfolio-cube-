@@ -4,6 +4,7 @@ export default function ProfessionalProjects() {
   return (
     <div className="cube__face cube__face--professionalProjects">
       <div className="projectsGrid">
+        <h1 className="professional">Professional Projects</h1>
         <div className="card card1">
           <div className="card__img"></div>
           <p className="card__text">COMING SOON!</p>

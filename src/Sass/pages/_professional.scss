@@ -1,0 +1,9 @@
+.professional {
+  font-size: 4rem;
+  grid-row: 1;
+  grid-column: 4;
+  margin-top: 2rem;
+  @include respond(phone) {
+    font-size: 2rem;
+  }
+}

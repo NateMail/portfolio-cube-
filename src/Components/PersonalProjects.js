@@ -4,13 +4,12 @@ export default function PersonalProjects() {
   return (
     <div className="cube__face cube__face--personalProjects">
       <div className="projectsGrid">
+        <h1 className="personal">Personal Projects</h1>
         <div className="card card1">
           <div className="card__img personalCardImg1"></div>
           <p className="card__text">
             My first full stack project a to-do list! In this project I
-            developed a back end api using Ruby, Rails and PostgreSQL. It was
-            also my first project using Handlebars. Working on it was a great
-            experience!
+            developed a back end api using Ruby, Rails and PostgreSQL.
           </p>
           <a
             className="card__link"

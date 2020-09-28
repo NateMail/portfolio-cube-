@@ -48,12 +48,12 @@
     }
 
     &--skills {
-      background-color: $color-medium-blue;
+      background-color: $color-light-blue;
       transform: rotateX(90deg) translateZ(1000px);
     }
 
     &--professionalProjects {
-      background-color: $color-medium-blue;
+      background-color: $color-light-blue;
       transform: rotateX(-90deg) translateZ(1000px);
     }
   }

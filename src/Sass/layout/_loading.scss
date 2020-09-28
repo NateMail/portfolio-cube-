@@ -1,9 +1,6 @@
 .loading {
   align-items: center;
-  background: url("../../Photos/space.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: $color-dark-blue;
   display: flex;
   font-family: sans-serif;
   height: 100vh;

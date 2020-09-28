@@ -31,6 +31,17 @@
     transform: scale(1.2);
   }
 
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+    &__logo:hover {
+      transform: scale(1);
+    }
+
+    &__btn:hover {
+      box-shadow: none;
+      transform: scale(1);
+    }
+  }
+
   &__list {
     align-items: center;
     display: flex;

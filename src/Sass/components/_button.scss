@@ -16,3 +16,12 @@
   color: $color-off-white;
   transform: scale(1.2);
 }
+
+@media only screen and (max-width: 56.25em), only screen and (hover: none) {
+  .btn:hover {
+    background-color: $color-off-white;
+    box-shadow: none;
+    color: $color-medium-blue;
+    transform: scale(1);
+  }
+}

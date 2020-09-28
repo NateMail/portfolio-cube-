@@ -16,6 +16,10 @@
     font-size: 1.2rem;
     line-height: 1.2;
     padding-top: 2px;
+
+    @include respond(phone) {
+      font-size: 1rem;
+    }
   }
 
   &__link {
@@ -59,7 +63,7 @@
 
 .card:hover {
   transform: scale(1.5);
-  box-shadow: 20px 16px $color-dark;
+  box-shadow: 20px 16px 10px $color-dark;
 }
 
 .card1 {

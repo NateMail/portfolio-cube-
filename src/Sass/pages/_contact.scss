@@ -31,5 +31,10 @@
   &__form {
     grid-row: 3 / 8;
     grid-column: 2 / 6;
+
+    @include respond(phone) {
+      grid-column: 1 / 7;
+      padding: 2rem;
+    }
   }
 }

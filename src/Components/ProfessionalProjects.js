@@ -17,14 +17,21 @@ export default function ProfessionalProjects() {
         </div>
 
         <div className="card card2">
-          <div className="card__img professionalCardImg1"></div>
-          <p className="card__text">COMING SOON!</p>
-          {/* <a className="card__link" href="#">
+          <div className="card__img professionalCardImg2"></div>
+          <p className="card__text">
+            This website is a frontend react build for a tutoring service. The
+            website uses sass and is deployed to netlify. Emailing is sent
+            through email.js.
+          </p>
+          <a className="card__link" href="https://www.greatexpectationsma.com/">
             link
           </a>
-          <a className="card__repo" href="#">
+          <a
+            className="card__repo"
+            href="https://github.com/NateMail/greatexpectationsmoc"
+          >
             repo
-          </a> */}
+          </a>
         </div>
 
         <div className="card card3">

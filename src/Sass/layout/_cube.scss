@@ -33,27 +33,27 @@
     }
 
     &--personalProjects {
-      background-color: $color-dark-blue;
+      background-color: $color-light-grey;
       transform: rotateY(90deg) translateZ(1000px);
     }
 
     &--about {
-      background-color: $color-forrest;
+      background-color: $color-light-grey;
       transform: rotateY(180deg) translateZ(1000px);
     }
 
     &--contact {
-      background-color: $color-dark-blue;
+      background-color: $color-light-grey;
       transform: rotateY(-90deg) translateZ(1000px);
     }
 
     &--skills {
-      background-color: $color-light-blue;
+      background-color: $color-light-grey;
       transform: rotateX(90deg) translateZ(1000px);
     }
 
     &--professionalProjects {
-      background-color: $color-light-blue;
+      background-color: $color-light-grey;
       transform: rotateX(-90deg) translateZ(1000px);
     }
   }

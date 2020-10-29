@@ -2,7 +2,11 @@ import React from "react";
 
 export default function Nav(props) {
   function onChange(e) {
-    return props.update(e.target.value);
+    if (e.target.value === undefined) {
+      props.update("home");
+    } else {
+      return props.update(e.target.value);
+    }
   }
 
   return (

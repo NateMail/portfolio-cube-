@@ -9,6 +9,7 @@ import ProfessionalProjects from "./ProfessionalProjects";
 export default function Cube(props) {
   const cubeClass = `cube show-${props.side}`;
 
+  console.log(cubeClass);
   return (
     <div className={cubeClass}>
       <Home />

@@ -15,7 +15,6 @@ export default function Footer() {
           href={resume}
           target="_blank"
           rel="noopener noreferrer"
-          download={resume}
           className="footer__text"
         >
           <AiFillFilePdf className="footer__icon" />

@@ -5,7 +5,7 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
-import resume from "../Documents/Resume.pdf";
+import resume from "./Documents/Resume.pdf";
 
 export default function Footer() {
   return (

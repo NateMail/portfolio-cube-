@@ -5,7 +5,6 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
-// Importing resume
 import Resume from "../Documents/Resume.pdf";
 
 export default function Footer() {
@@ -15,7 +14,7 @@ export default function Footer() {
         <a
           href={Resume}
           target="_blank"
-          rel="noopener noreferrer"
+          // rel="noopener noreferrer"
           className="footer__text"
         >
           <AiFillFilePdf className="footer__icon" />

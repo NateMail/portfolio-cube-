@@ -14,7 +14,7 @@ export default function Footer() {
         <a
           href={Resume}
           target="_blank"
-          // rel="noopener noreferrer"
+          rel="noopener noreferrer"
           className="footer__text"
         >
           <AiFillFilePdf className="footer__icon" />
